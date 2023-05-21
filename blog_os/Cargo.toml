@@ -5,8 +5,9 @@ edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
 
+[dependencies]
+bootloader = "0.9.23"
 
 # stack unwinding requires OS-specific libraries, which we don't want for our tiny rust OS
 [profile.dev]
